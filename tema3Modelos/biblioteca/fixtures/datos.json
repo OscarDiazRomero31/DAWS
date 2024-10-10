@@ -1,0 +1,992 @@
+[
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add autor",
+        "content_type": 7,
+        "codename": "add_autor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change autor",
+        "content_type": 7,
+        "codename": "change_autor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete autor",
+        "content_type": 7,
+        "codename": "delete_autor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view autor",
+        "content_type": 7,
+        "codename": "view_autor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add biblioteca",
+        "content_type": 8,
+        "codename": "add_biblioteca"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change biblioteca",
+        "content_type": 8,
+        "codename": "change_biblioteca"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete biblioteca",
+        "content_type": 8,
+        "codename": "delete_biblioteca"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view biblioteca",
+        "content_type": 8,
+        "codename": "view_biblioteca"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add cliente",
+        "content_type": 9,
+        "codename": "add_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change cliente",
+        "content_type": 9,
+        "codename": "change_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete cliente",
+        "content_type": 9,
+        "codename": "delete_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view cliente",
+        "content_type": 9,
+        "codename": "view_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add libro",
+        "content_type": 10,
+        "codename": "add_libro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change libro",
+        "content_type": 10,
+        "codename": "change_libro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete libro",
+        "content_type": 10,
+        "codename": "delete_libro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view libro",
+        "content_type": 10,
+        "codename": "view_libro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add datos cliente",
+        "content_type": 11,
+        "codename": "add_datoscliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change datos cliente",
+        "content_type": 11,
+        "codename": "change_datoscliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete datos cliente",
+        "content_type": 11,
+        "codename": "delete_datoscliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view datos cliente",
+        "content_type": 11,
+        "codename": "view_datoscliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add prestamos",
+        "content_type": 12,
+        "codename": "add_prestamos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change prestamos",
+        "content_type": 12,
+        "codename": "change_prestamos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete prestamos",
+        "content_type": 12,
+        "codename": "delete_prestamos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view prestamos",
+        "content_type": 12,
+        "codename": "view_prestamos"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "biblioteca",
+        "model": "autor"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "biblioteca",
+        "model": "biblioteca"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "biblioteca",
+        "model": "cliente"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "biblioteca",
+        "model": "libro"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "biblioteca",
+        "model": "datoscliente"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "biblioteca",
+        "model": "prestamos"
+    }
+},
+{
+    "model": "biblioteca.biblioteca",
+    "pk": 1,
+    "fields": {
+        "nombre": "Pressure project entire type. Between yourself against theory American sit."
+    }
+},
+{
+    "model": "biblioteca.biblioteca",
+    "pk": 2,
+    "fields": {
+        "nombre": "Effect analysis free we speak concern husband them. Course us never bag might author."
+    }
+},
+{
+    "model": "biblioteca.biblioteca",
+    "pk": 3,
+    "fields": {
+        "nombre": "Bit small here wide send far miss. Ability whatever money television pay."
+    }
+},
+{
+    "model": "biblioteca.biblioteca",
+    "pk": 4,
+    "fields": {
+        "nombre": "Of grow child hit unit child."
+    }
+},
+{
+    "model": "biblioteca.biblioteca",
+    "pk": 5,
+    "fields": {
+        "nombre": "Quite want quite since long author argue. Tax sign wish too rule. Condition eye reflect large."
+    }
+},
+{
+    "model": "biblioteca.biblioteca",
+    "pk": 6,
+    "fields": {
+        "nombre": "Future fall wide."
+    }
+},
+{
+    "model": "biblioteca.biblioteca",
+    "pk": 7,
+    "fields": {
+        "nombre": "South attack born analysis quality owner might current. Well smile myself thus."
+    }
+},
+{
+    "model": "biblioteca.biblioteca",
+    "pk": 8,
+    "fields": {
+        "nombre": "Significant sing upon by. Defense hundred sound."
+    }
+},
+{
+    "model": "biblioteca.biblioteca",
+    "pk": 9,
+    "fields": {
+        "nombre": "Moment when society role."
+    }
+},
+{
+    "model": "biblioteca.biblioteca",
+    "pk": 10,
+    "fields": {
+        "nombre": "Deep administration state scene."
+    }
+},
+{
+    "model": "biblioteca.biblioteca",
+    "pk": 11,
+    "fields": {
+        "nombre": "Scientist until likely of poor. Daughter industry inside leave parent court factor."
+    }
+},
+{
+    "model": "biblioteca.biblioteca",
+    "pk": 12,
+    "fields": {
+        "nombre": "Shoulder record reveal rate reason day wide. It still mention heart bring nearly understand seem."
+    }
+},
+{
+    "model": "biblioteca.biblioteca",
+    "pk": 13,
+    "fields": {
+        "nombre": "Force talk arm star movie whether. Go article loss firm act of. Stay leave much account."
+    }
+},
+{
+    "model": "biblioteca.biblioteca",
+    "pk": 14,
+    "fields": {
+        "nombre": "Prove person art identify dog decision sign. Benefit vote level story activity action trade."
+    }
+},
+{
+    "model": "biblioteca.biblioteca",
+    "pk": 15,
+    "fields": {
+        "nombre": "Film open idea benefit authority book lot. Mean administration student million laugh seem."
+    }
+},
+{
+    "model": "biblioteca.autor",
+    "pk": 1,
+    "fields": {
+        "nombre": "Force help word red issue important meeting. Usually less green teach north national high garden.",
+        "apellidos": "Heart land mouth without test fine. Coach develop federal marriage economy fine.",
+        "edad": -20407
+    }
+},
+{
+    "model": "biblioteca.autor",
+    "pk": 2,
+    "fields": {
+        "nombre": "Network law left art soon individual. Outside debate fire artist feel.",
+        "apellidos": "Reality edge must let after four. Condition herself effort task enter outside.",
+        "edad": 13212
+    }
+},
+{
+    "model": "biblioteca.autor",
+    "pk": 3,
+    "fields": {
+        "nombre": "Fall occur short compare. With man politics so model beyond.",
+        "apellidos": "Plan tonight really old but late. Positive understand society sign your.",
+        "edad": -6451
+    }
+},
+{
+    "model": "biblioteca.autor",
+    "pk": 4,
+    "fields": {
+        "nombre": "Until send system technology time reduce dinner.",
+        "apellidos": "Peace question remember hit court. Maybe shoulder whose.",
+        "edad": 15250
+    }
+},
+{
+    "model": "biblioteca.autor",
+    "pk": 5,
+    "fields": {
+        "nombre": "Sister suggest challenge. Table public mission through nature film.",
+        "apellidos": "Civil item father painting fight however test. With result letter next brother instead.",
+        "edad": 8605
+    }
+},
+{
+    "model": "biblioteca.autor",
+    "pk": 6,
+    "fields": {
+        "nombre": "Him by sort a risk than even. Movie trouble rather month raise. Ten charge ok civil.",
+        "apellidos": "Middle far similar civil. Surface establish cut.\nRoom difficult born performance any glass.",
+        "edad": -7394
+    }
+},
+{
+    "model": "biblioteca.autor",
+    "pk": 7,
+    "fields": {
+        "nombre": "Activity source concern admit. Reason provide gun bag attorney truth forward past.",
+        "apellidos": "Maintain discuss model conference. Appear week ahead actually. Month wish blood consumer.",
+        "edad": 27191
+    }
+},
+{
+    "model": "biblioteca.autor",
+    "pk": 8,
+    "fields": {
+        "nombre": "Food sit worry. Scene ok turn wear as month daughter.",
+        "apellidos": "Forward when important son chair seat. Last good begin sport.",
+        "edad": -31558
+    }
+},
+{
+    "model": "biblioteca.autor",
+    "pk": 9,
+    "fields": {
+        "nombre": "Along wind sea occur customer heavy. Industry usually politics direction.",
+        "apellidos": "Call despite compare certain. Meeting account letter provide.",
+        "edad": -21896
+    }
+},
+{
+    "model": "biblioteca.autor",
+    "pk": 10,
+    "fields": {
+        "nombre": "Here low source. Themselves effort how.",
+        "apellidos": "Particular tax test often moment. Record receive stuff. Deal general wrong energy factor way rule.",
+        "edad": 17682
+    }
+},
+{
+    "model": "biblioteca.autor",
+    "pk": 11,
+    "fields": {
+        "nombre": "Sense out often test experience ok.",
+        "apellidos": "Experience parent himself though game deep fine. Project market account successful.",
+        "edad": -7672
+    }
+},
+{
+    "model": "biblioteca.autor",
+    "pk": 12,
+    "fields": {
+        "nombre": "Several machine arm nearly. Billion understand want month. Close cut recognize out.",
+        "apellidos": "Will country finally food office easy edge. Media war him. Usually among perform baby some.",
+        "edad": 5105
+    }
+},
+{
+    "model": "biblioteca.autor",
+    "pk": 13,
+    "fields": {
+        "nombre": "Less amount along maybe amount allow politics. Break morning talk particular image successful.",
+        "apellidos": "Democrat let question draw with quickly lay. Remember lay onto later help.",
+        "edad": 27638
+    }
+},
+{
+    "model": "biblioteca.autor",
+    "pk": 14,
+    "fields": {
+        "nombre": "Short black type capital change property crime. The benefit interesting pull tough.",
+        "apellidos": "Its than deal bed. Win up process.\nSmall east road laugh whom. Hotel usually garden great however.",
+        "edad": 12669
+    }
+},
+{
+    "model": "biblioteca.autor",
+    "pk": 15,
+    "fields": {
+        "nombre": "Increase enjoy deal team close office face. Range election trouble compare art something.",
+        "apellidos": "Easy laugh consider. Admit fly ability capital. Night team there eye yeah black.",
+        "edad": 14449
+    }
+},
+{
+    "model": "biblioteca.libro",
+    "pk": 1,
+    "fields": {
+        "nombre": "Republican task write feeling. Nothing growth your reality these senior walk. Sell fire institution.",
+        "tipo": "ES",
+        "descripcion": "Trial lead candidate such understand itself box. Idea land present.\nArea manage cut reality stock. Environment nice kitchen leader. Possible real nearly face.",
+        "fecha_publicacion": "1992-09-22",
+        "biblioteca": 7,
+        "autores": [
+            12
+        ]
+    }
+},
+{
+    "model": "biblioteca.libro",
+    "pk": 2,
+    "fields": {
+        "nombre": "Century section where find just avoid season. Term yard people adult series dream born. Woman street course newspaper stand forget.\nFund create drive add center compare special.",
+        "tipo": "ES",
+        "descripcion": "Perform ready point how activity describe ago. Discussion true page truth various. Seven community leader age upon vote control. Trade reach place daughter doctor food if speak.",
+        "fecha_publicacion": "1974-01-21",
+        "biblioteca": 8,
+        "autores": [
+            3,
+            12
+        ]
+    }
+},
+{
+    "model": "biblioteca.libro",
+    "pk": 3,
+    "fields": {
+        "nombre": "Step professor science receive would opportunity. Forward new peace month later.\nLevel bring safe defense event talk include visit. Range couple high. Hold good owner game hot western.",
+        "tipo": "ES",
+        "descripcion": "Per respond thought go medical trouble. Movement five process I.",
+        "fecha_publicacion": "1978-04-30",
+        "biblioteca": 4,
+        "autores": [
+            3,
+            7,
+            14
+        ]
+    }
+},
+{
+    "model": "biblioteca.libro",
+    "pk": 4,
+    "fields": {
+        "nombre": "Oil resource time discussion appear decide approach. Series old physical my risk admit.\nHot serious everything community environmental. Visit fast off catch most.",
+        "tipo": "ES",
+        "descripcion": "Various themselves way spring table. Bad star represent safe green.\nShow open choice throw with. Occur economy laugh brother stage into director. Relationship first middle.",
+        "fecha_publicacion": "2001-01-06",
+        "biblioteca": 8,
+        "autores": [
+            7
+        ]
+    }
+},
+{
+    "model": "biblioteca.libro",
+    "pk": 5,
+    "fields": {
+        "nombre": "Ready model ability economy down join past.\nHard dark care PM hard article. Civil lot view process late machine. Factor soldier focus same voice.",
+        "tipo": "ES",
+        "descripcion": "Head fight design news someone need ahead. Able leader child best when.\nMinute per name thus whom suggest. Out fall full wrong. Agreement success support respond.",
+        "fecha_publicacion": "2009-08-29",
+        "biblioteca": 8,
+        "autores": [
+            4,
+            11
+        ]
+    }
+},
+{
+    "model": "biblioteca.libro",
+    "pk": 6,
+    "fields": {
+        "nombre": "Truth commercial candidate begin. Color rich author morning drug book short. Country air fire how fish full.\nIncrease third unit police.",
+        "tipo": "ES",
+        "descripcion": "Eat certain financial letter artist. Six experience agency watch stuff up citizen deal.\nAvoid Republican hear deep. Artist position program consumer wrong TV woman.",
+        "fecha_publicacion": "1989-08-04",
+        "biblioteca": 1,
+        "autores": [
+            7,
+            12
+        ]
+    }
+},
+{
+    "model": "biblioteca.libro",
+    "pk": 7,
+    "fields": {
+        "nombre": "Age fact show note choose. Mr dark special opportunity guess two.\nGroup drug pretty first home. Quickly each protect later whether people.",
+        "tipo": "ES",
+        "descripcion": "Window receive change else perhaps manage in. On herself feeling sea. One open positive challenge.",
+        "fecha_publicacion": "1986-06-23",
+        "biblioteca": 10,
+        "autores": [
+            13
+        ]
+    }
+},
+{
+    "model": "biblioteca.libro",
+    "pk": 8,
+    "fields": {
+        "nombre": "That performance listen crime difficult seem tough. Book power themselves. Get situation civil discussion official. Party student food economic in.",
+        "tipo": "ES",
+        "descripcion": "Data drive young likely level. Five society social argue mean. Look less catch simply.\nAdd parent wonder nation executive. Record specific attack small.",
+        "fecha_publicacion": "2015-05-03",
+        "biblioteca": 8,
+        "autores": [
+            14
+        ]
+    }
+},
+{
+    "model": "biblioteca.libro",
+    "pk": 9,
+    "fields": {
+        "nombre": "Send minute standard political how. Center inside police feeling full nation serve. Wide there wind owner.\nVote cover little mind which medical per. Put perhaps you.",
+        "tipo": "ES",
+        "descripcion": "From but maybe.\nInformation war statement. Total blue seat security provide piece leave. Others federal capital fish everything police stay.",
+        "fecha_publicacion": "2015-04-03",
+        "biblioteca": 5,
+        "autores": [
+            1
+        ]
+    }
+},
+{
+    "model": "biblioteca.libro",
+    "pk": 10,
+    "fields": {
+        "nombre": "Specific material rich animal social site police. Position would find arrive somebody program high. Around always explain wonder really answer close.",
+        "tipo": "ES",
+        "descripcion": "Every know same push right. Big recent natural place. In generation budget a matter five. Car leave happen indeed over happy hand.",
+        "fecha_publicacion": "1989-09-13",
+        "biblioteca": 3,
+        "autores": [
+            2,
+            3,
+            8
+        ]
+    }
+},
+{
+    "model": "biblioteca.libro",
+    "pk": 11,
+    "fields": {
+        "nombre": "Sport authority social before drop. Item upon girl.\nForward can father plan ability Democrat. Military grow hard.",
+        "tipo": "ES",
+        "descripcion": "Light score occur agree meet throughout never. As necessary yeah.\nThe eight interest almost. Argue quite candidate third now.",
+        "fecha_publicacion": "2019-01-14",
+        "biblioteca": 12,
+        "autores": [
+            4,
+            12
+        ]
+    }
+},
+{
+    "model": "biblioteca.libro",
+    "pk": 12,
+    "fields": {
+        "nombre": "Future true trip maybe writer person help. Past fish left not box direction.\nHeart almost action company again. Party trial matter answer control hear piece.",
+        "tipo": "ES",
+        "descripcion": "But top development manager able. Help my official reduce though. Song thing security tell attorney mean impact.\nModel trial son poor throw. Off wish tax. Many born all must still.",
+        "fecha_publicacion": "1994-03-27",
+        "biblioteca": 14,
+        "autores": [
+            11
+        ]
+    }
+},
+{
+    "model": "biblioteca.libro",
+    "pk": 13,
+    "fields": {
+        "nombre": "Moment state maybe TV marriage forget. Join sign foot sea section.\nEveryone form hospital position inside. Grow try decision. Watch almost reduce culture decision movie perform.",
+        "tipo": "ES",
+        "descripcion": "Without probably dark talk last situation. Feel try usually. Save car recently president better girl.",
+        "fecha_publicacion": "2012-08-09",
+        "biblioteca": 11,
+        "autores": [
+            3,
+            4,
+            5,
+            7
+        ]
+    }
+},
+{
+    "model": "biblioteca.libro",
+    "pk": 14,
+    "fields": {
+        "nombre": "Think add represent she foreign industry watch theory. Design career price officer key kitchen style.",
+        "tipo": "ES",
+        "descripcion": "Future soon for show professor main. Whom then store find artist because.\nTerm manage think long back. Receive these remain executive seat performance answer.",
+        "fecha_publicacion": "1977-01-05",
+        "biblioteca": 10,
+        "autores": [
+            5,
+            12
+        ]
+    }
+},
+{
+    "model": "biblioteca.libro",
+    "pk": 15,
+    "fields": {
+        "nombre": "Green both appear according point strong stuff. Enter agreement former management nice left evidence. Town how respond large least around country whose.",
+        "tipo": "ES",
+        "descripcion": "Wear shake them civil lay perform late. As simple agreement. Five often threat recognize camera.\nApply over home. Read process life may.",
+        "fecha_publicacion": "2001-09-01",
+        "biblioteca": 9,
+        "autores": [
+            2
+        ]
+    }
+}
+]
