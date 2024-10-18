@@ -37,4 +37,8 @@ def dame_libros_fecha(request,anyo_libro,mes_libro):
              )
     """    
     return render(request, 'libro/lista.html',{"libros_mostrar":libros})
+
+def dame_ultimo_cliente_libro(request,libro):
+    cliente= Cliente.objects.filter(prestamo__libro=libro).order_by("-prestamo__fecha_prestamo")[:1].get()
+    return render(request, 'cliente/cliente.html',{"cliente":cliente})
     

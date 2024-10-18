@@ -48,4 +48,6 @@ Relaciones usadas:
     ManyToOne: Relación en Venta, TestDrive y ContratoProveedor.
     ManyToMany: Relación entre Coche y CategoriaCoche, y en TestDrive con atributos extras.
 
-Con estos modelos, tienes toda la estructura para crear la base de datos del concesionario de coches cumpliendo con las indicaciones del proyecto. ¡Puedes comenzar a migrar los modelos y poblar la base de datos! Si necesitas más ayuda, estaré aquí.
+Con estos modelos, tienes toda la estructura para crear la base de datos del concesionario de coches cumpliendo 
+con las indicaciones del proyecto. ¡Puedes comenzar a migrar los modelos y poblar la base de datos! Si necesitas 
+más ayuda, estaré aquí.

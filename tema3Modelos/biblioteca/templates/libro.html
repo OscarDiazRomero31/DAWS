@@ -15,6 +15,14 @@
             </ul>
             <h3>Idioma: {{ libro_mostrar.get_idioma_display }}</h2>
             <p>Descripcion{{ libro_mostrar.descripcion }}</p>
+            
+            <h3>
+                Ultimo cliente se llevo el libro:
+                <a href="{%url 'ultimo_cliente_libro' libro.id%}">
+                    Pulsa para ver el ultimo cliente
+                </a>
+            </h3>
+
     </div>
     </body>
 </html>
