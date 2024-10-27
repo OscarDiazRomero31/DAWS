@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Sistema de Gestión de Ejercicio</title>
+    
+</head>
+<body>
+
+    <header>
+        <h1><a href="/">Sistema de Gestión de Alumnos</a></h1>
+    </header>
+
+    <div class="container">
+        <h2>Páginas del Sistema del Alumnos</h2> 
+        <div class="link-list">
+            <div class="link-item">
+                <a href="{% url 'dame_proyecto' %}">Ver Proyectos</a>
+            </div>
+            <div class="link-item">
+                <a href="{% url 'tareas_por_proyecto' 17 %}">Ver Tareas</a>
+            </div>
+            <div class="link-item">
+                <a href="{% url 'asignacion_tarea' 33 %}">Ver Asignacion de la Tarea</a>
+            </div>
+            <div class="link-item">
+                <a href="{% url 'texto_observaciones' 'pepe' %}">Ver Observacion de la Tarea</a>
+            </div>
+            <div class="link-item">
+                <a href="{% url 'tarea_completada' 2000 2024  %}">Ver Tarea Completada</a>
+            </div>
+            <div class="link-item">
+                <a href="{% url 'comentarios_por_palabra_y_anio' 1 'la' 2024 %}">Ver Ultimo Comentario</a>
+            </div>
+            <div class="link-item">
+                <a href="{% url 'etiquetas_por_proyecto' 22 %}">Ver etiqueta del proyecto</a>
+            </div>
+        </div>
+
+   
+
+</body>
+</html>
